@@ -1,0 +1,36 @@
+{
+  "tabWidth": 4,
+  "tabSize": 4,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.jsx",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.ts",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

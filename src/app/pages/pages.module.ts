@@ -12,6 +12,9 @@ import { DashboardComponent } from "./dashboard/dashboard.component";
 import { ProgressComponent } from "./progress/progress.component";
 import { Graph1Component } from "./graph1/graph1.component";
 import { RouterParentPageComponent } from "./router-parent-page.component";
+import { AccountSettingsComponent } from "./account-settings/account-settings.component";
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { RouterParentPageComponent } from "./router-parent-page.component";
     ProgressComponent,
     Graph1Component,
     RouterParentPageComponent,
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent,
     //
   ],
   exports: [
@@ -26,6 +32,7 @@ import { RouterParentPageComponent } from "./router-parent-page.component";
     ProgressComponent,
     Graph1Component,
     RouterParentPageComponent,
+    AccountSettingsComponent,
     //
   ],
   imports: [

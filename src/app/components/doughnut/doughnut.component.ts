@@ -9,10 +9,9 @@ import { ChartData } from "chart.js";
 export class DoughnutComponent {
   // Doughnut
   @Input() title: string = "untitled";
-  public colors: string[] = ["#009452", "#009FEE", "#F02059"];
-  public data: number[] = [10, 450, 100];
-
   public labels: string[] = ["Label 1", "Label 2", "Label 3"];
+  public data: number[] = [10, 450, 100];
+  public colors: string[] = ["#009452", "#009FEE", "#F02059"];
 
   @Input("data") doughnutChartData: ChartData<"doughnut"> = {
     labels: this.labels,

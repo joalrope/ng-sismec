@@ -41,7 +41,7 @@ export class Graph1Component {
     datasets: [
       {
         data: this.importsValue,
-        backgroundColor: this.purchaseColors,
+        backgroundColor: this.importsColors,
       },
     ],
   };

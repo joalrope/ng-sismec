@@ -13,12 +13,32 @@ const routes: Routes = [
     path: "dashboard",
     component: RouterParentPageComponent,
     children: [
-      { path: "", component: DashboardComponent },
-      { path: "progress", component: ProgressComponent },
-      { path: "chart1", component: Graph1Component },
-      { path: "account-settings", component: AccountSettingsComponent },
-      { path: "promises", component: PromisesComponent },
-      { path: "observables", component: RxjsComponent },
+      { path: "", component: DashboardComponent, data: { title: "Dashboard" } },
+      {
+        path: "progress",
+        component: ProgressComponent,
+        data: { title: "Progress Bar" },
+      },
+      {
+        path: "chart1",
+        component: Graph1Component,
+        data: { title: "Charth 1" },
+      },
+      {
+        path: "account-settings",
+        component: AccountSettingsComponent,
+        data: { title: "Account Setting" },
+      },
+      {
+        path: "promises",
+        component: PromisesComponent,
+        data: { title: "Promises" },
+      },
+      {
+        path: "observables",
+        component: RxjsComponent,
+        data: { title: "Observables" },
+      },
       //{ path: "", redirectTo: "/dashboard", pathMatch: "full" },
     ],
   },
